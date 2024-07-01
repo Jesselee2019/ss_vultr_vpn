@@ -44,3 +44,8 @@ I build my own script, it's private, copy the raw link with token should be able
    `systemctl status shadowsocks-go.service`
 2. check ports status
    `ufw status`
+
+# Ref
+https://mcl-123.github.io/2019/03/19/Vultr-%E6%90%AD%E5%BB%BA-shadowsocks-%E6%95%99%E7%A8%8B/
+https://github.com/moraaah/Vultr-Shadowsocks?tab=readme-ov-file
+https://jackmezone.medium.com/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91-vultr-vps-%E6%90%AD%E5%BB%BA-shadowsocks-ss-%E6%95%99%E7%A8%8B-%E6%96%B0%E6%89%8B%E5%90%91-968613081aae

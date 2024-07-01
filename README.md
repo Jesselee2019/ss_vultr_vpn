@@ -37,6 +37,8 @@ sed -i 's/python-setuptools/python3-setuptools/g' shadowsocks.sh
 sed -i 's/python /python-is-python3 /g' shadowsocks.sh
 ```
 
+I build my own script, it's private, copy the raw link with token should be able to use. Please try in the future see if it works.
+
 # Some useful commands
 1. check server status
    `systemctl status shadowsocks-go.service`

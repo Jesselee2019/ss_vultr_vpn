@@ -9,6 +9,15 @@ Just use/buy the cheapest one. But for curiousity, I searched that 'what hardwar
 10/03 update: 
 The reason why CPU is essential that depends on how many users using it. Like we have a multi-tasks env, and need a strong core to process every single task.
 
+# TLDR (update 10/03)
+```
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+
+chmod +x shadowsocks-all.sh
+
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+```
+
 # Install Shadowsocks
 Commands:
 ```

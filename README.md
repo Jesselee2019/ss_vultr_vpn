@@ -23,6 +23,16 @@ chmod +x shadowsocks-all.sh
 3. Port (8989)
 4. Protocal (#7)
 
+Helpful commands
+```
+1. check server status
+   `systemctl status shadowsocks-go.service`
+2. check ports status
+   `ufw status`
+3. start server
+   `systemctl start shadowsocks-go.service`
+```
+
 # Install Shadowsocks
 Commands:
 ```

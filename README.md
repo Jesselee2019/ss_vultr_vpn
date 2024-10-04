@@ -6,6 +6,9 @@ There are so many different instructions on the internet, after many hours work,
 # Start a server
 Just use/buy the cheapest one. But for curiousity, I searched that 'what hardware will affect as a VPN server?', the answer is CPU and network.
 
+10/03 update: 
+The reason why CPU is essential that depends on how many users using it. Like we have a multi-tasks env, and need a strong core to process every single task.
+
 # Install Shadowsocks
 Commands:
 ```

@@ -15,6 +15,8 @@ wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.
 
 chmod +x shadowsocks-all.sh
 
+ufw allow 8989/tcp
+
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 ```
 
@@ -24,14 +26,14 @@ chmod +x shadowsocks-all.sh
 4. Protocal (#7)
 
 Helpful commands
-```
 1. check server status
    `systemctl status shadowsocks-go.service`
 2. check ports status
    `ufw status`
 3. start server
    `systemctl start shadowsocks-go.service`
-```
+4. enable port
+   `ufw allow 8989/tcp`
 
 # Install Shadowsocks
 Commands:

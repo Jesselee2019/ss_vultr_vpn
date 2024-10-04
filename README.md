@@ -18,6 +18,11 @@ chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 ```
 
+1. Select 'shadowsocks-Go'
+2. Password
+3. Port (8989)
+4. Protocal (#7)
+
 # Install Shadowsocks
 Commands:
 ```

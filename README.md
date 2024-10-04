@@ -11,7 +11,7 @@ The reason why CPU is essential that depends on how many users using it. Like we
 
 # TLDR (update 10/03)
 ```
-wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/Jesselee2019/ss_vultr_vpn/refs/heads/main/shadowsocks-all.sh
 
 chmod +x shadowsocks-all.sh
 
